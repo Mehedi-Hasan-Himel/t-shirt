@@ -9,14 +9,9 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="tshirt-container">
-        {/* {
-          tShirts.map((tShirt) => 
-            <TShirt
-              key={tShirt._id}
-              tShirt={tShirt}
-            ></TShirt>
-          )
-        } */}
+        {tShirts.map((tShirt) => (
+          <TShirt key={tShirt._id} tShirt={tShirt}></TShirt>
+        ))}
       </div>
       <div className="cart-container">
         <Cart></Cart>
