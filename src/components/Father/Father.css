@@ -1,0 +1,4 @@
+.father{
+   display: flex;
+   flex-direction: column;
+}

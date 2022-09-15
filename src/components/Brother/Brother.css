@@ -1,0 +1,4 @@
+.brother{
+   display: flex;
+   flex-direction: column;
+}
